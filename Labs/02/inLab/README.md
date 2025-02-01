@@ -1,3 +1,4 @@
+# Task 1
 ### Directory Setup
 ![image](https://github.com/user-attachments/assets/313d5fef-d21e-45e1-bef3-fb2d8377fb71)
 
@@ -35,3 +36,16 @@
 
 #### Cleaning using `make`
 ![image](https://github.com/user-attachments/assets/ef20aa79-8794-40c5-95b1-1a6142323651)
+
+# Task 2
+### Result
+![image](https://github.com/user-attachments/assets/6624aca9-232e-4639-b6bd-67f4f78043e2)
+### Code
+![image](https://github.com/user-attachments/assets/277b4136-d31f-49b8-b5bc-6c40b47df21a)
+
+# Task 3
+### Result
+![image](https://github.com/user-attachments/assets/51165b67-b28b-47b5-ad77-d64b527361b2)
+### Code
+![image](https://github.com/user-attachments/assets/d96e0109-8974-4f76-9c4f-f927f5482532)
+
