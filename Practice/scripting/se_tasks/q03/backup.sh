@@ -3,6 +3,7 @@ if [[ $# -ne 1 ]]; then
 	exit 1
 fi
 
-file=$1_$(echo $(date) | awk '{gsub(" ", "-"); print}')
+original=$1
+backup=$(basename ${original%%.*})_$(echo $(date +"%Y-%m-%d") | awk '{gsub(" ", "-"); print}').${original##*.}
 
-echo $file
+cp $original $backup
