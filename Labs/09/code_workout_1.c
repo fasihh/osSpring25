@@ -28,9 +28,10 @@ int main() {
 
   printf("Press Ctrl+C to send a SIGINT signal\n");
 
+  kill(getpid(), SIGUSR1);
   // Infinite loop to keep the program running
-  while(1) {
-    sleep(1);
-  }
+  // while(1) {
+  //   sleep(1);
+  // }
   return 0;
 }
