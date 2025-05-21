@@ -4,6 +4,7 @@ if [[ $# -ne 1 ]]; then
 fi
 
 original=$1
+echo ${original%%.*} ${yes##.*}
 backup=$(basename ${original%%.*})_$(echo $(date +"%Y-%m-%d") | awk '{gsub(" ", "-"); print}').${original##*.}
 
 cp $original $(dirname $original)/$backup
